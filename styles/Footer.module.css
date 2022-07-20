@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    height:calc(100vh - 100px);
+    }
+.item{
+    flex:1;
+    position: relative;
+    
+}
+.item:nth-child(2){
+    display: flex;
+    flex:2;
+    padding:20px;
+    background-color:rgb(44, 42, 42);
+    position: relative;
+
+}
+
+.items{
+    padding:20px;
+}
+.title{
+    padding:10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(201, 171, 2);
+}
+.card{
+    padding:20px;
+    font-weight: 300;
+    color:white;    
+}

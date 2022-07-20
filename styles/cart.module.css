@@ -1,0 +1,68 @@
+.container{
+    height: auto;
+    padding:20px;
+    display:flex;
+}
+.left{
+    flex:2;
+    width: 100%;
+}
+.right{
+    flex:1;
+    text-align: center;
+}
+.imgcontainer{
+    height: 80px;
+    width: 80px;
+    position:relative;
+    align-items: center;
+   
+}
+.table{
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
+
+   
+}
+.subtotal, .discount, .totalprice {
+    display:flex;
+    text-align: justify;
+    justify-content: space-between;
+    margin:20px;
+
+    
+}
+.subtotaltext, .discounttext, .totaltext{
+    margin-right:10px;
+}
+.right{
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    color:white;
+    
+
+    /* text-align: center; */
+}
+.wrapper{
+    margin: 20px 60px 20px 60px;
+}
+.name
+{
+    color:red;
+    font-weight: bold;
+}
+.total{
+    font-weight: bold;
+    font-size: 18px;
+}
+.button{
+    font-size: 20px;
+    padding:10px;
+    color:red;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}

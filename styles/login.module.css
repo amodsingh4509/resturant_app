@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    text-align: center;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    background: yellowgreen;
+    padding:40px;
+    border-radius: 15px;
+    
+}
+.button{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 5px;
+    color: white;
+    background: teal;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input{
+    font-size: 18px;
+
+}
+.label{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+
+}

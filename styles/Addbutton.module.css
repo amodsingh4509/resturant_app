@@ -1,0 +1,12 @@
+.addbutton{
+    background: red;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}

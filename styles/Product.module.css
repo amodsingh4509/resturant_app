@@ -1,0 +1,111 @@
+.container{
+    height: calc(100vh - 80px);
+    display:flex;
+    padding: 40px;
+    justify-content: center;
+
+}
+.left{
+    flex:1;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.right{
+    flex:1;
+    align-items: column;
+    justify-content: space-around;
+}
+.imgContainer{
+    height: 80%;
+    width: 80%;
+    position: relative;
+}
+.title
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:10px;
+
+}
+.prices{
+    color:darkred;
+    font-size:20px;
+    font-weight:bold;
+    padding-bottom:200px;
+}
+.choose{
+    padding-bottom: 20px;
+    font-weight:bold;
+    font-size: 18px;
+    height: 25px;
+}
+
+.sizes{
+    display:flex;
+    text-align: justify;
+    width:40%;
+    justify-content: space-around;
+    padding:20px 0 0 0;
+    
+}
+.size{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    padding:10px;
+    
+}
+.size:nth-child(2)
+{
+    width: 50px;
+    height: 50px;
+    padding:10px;
+}
+.size:nth-child(3)
+{
+    width: 60px;
+    height: 60px;
+    padding:10px;
+}
+.number{
+    background-color: teal;
+    color: white;
+    position: absolute;
+   top: -8px;
+    right: -15px;
+    padding:0 5px;
+    border-radius: 8px;
+    z-index: 2;
+}
+/* .ingredients{
+    text-align: justify;
+    display:flex;
+} */
+.option{
+    display:flex;
+    text-align: center;
+}
+.checkbox{
+    height: 20px;
+    font: 20px;
+}
+
+.cart{
+    display:flex;
+    padding:15px 0 0 0;
+    text-align:justify;
+}
+.quantity{
+    width: 50px;
+    height: 25px;
+}
+.button{
+    margin-left: 10px;
+    color:white;
+   cursor:pointer;
+   border:none;
+    background-color: red;
+}

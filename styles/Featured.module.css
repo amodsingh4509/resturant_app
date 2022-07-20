@@ -1,0 +1,35 @@
+.container{
+    height: calc(100vh - 100px);
+    text-align: justify;
+    position: relative;
+    align-items: justify;
+    display:flex;
+   
+}
+.imageContainer{
+    height: 100%;
+    position:relative;
+    width:200vh;
+    display:flex;
+    align-items: justify;
+    
+    
+}
+.wrapper{
+    width:300vh;
+    display: flex;
+    height: 100%;
+    align-items: justify;
+    color: red;
+}
+.arrowcontainer{
+    height:70px;
+    width: 70px;
+    top:0;
+    bottom:0;
+    position:absolute;
+    margin:auto;
+    cursor: pointer;
+    z-index: 1;
+   
+}

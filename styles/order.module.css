@@ -1,0 +1,86 @@
+.container{
+    padding:25px;
+    display: flex;
+    
+}
+
+.left{
+    flex:2;
+    margin-left: 20px;
+    Padding:20px
+    
+    
+}
+.row:last-child
+{
+    margin-left: -15px;
+    width:60%;
+    padding-top:20px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.done{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.inprogress
+{   display:flex;
+    align-items: center;
+    flex-direction: column;
+    animation: inprogress 1s ease infinite alternate;
+}
+@keyframes inprogress {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.undone{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.4;
+}
+.inprogress .checkedicon,.undone .checkedicon{
+    display:none;
+}
+
+.status{
+    text-align: center;
+}
+.right{
+    flex:1;
+    background-color: rgb(43, 43, 39);
+    text-align: center;
+    padding:20px;
+    border-radius: 5%;
+    color:white;
+}
+
+.table{
+    width: 80%;
+    justify-content: space-between;
+    text-align: left;
+}
+.subtotal, .discount, .totalprice
+{
+    width: 70%;
+    margin-left: 40px;
+    text-align: left;
+    display:flex;
+    align-items: justify;
+}
+.subtotaltext, .discounttext, .totaltext{
+  margin-left: auto;
+}
+.button{
+    font-size: 20px;
+    color: green;
+    
+}

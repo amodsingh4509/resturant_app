@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    padding: 50px;
+}
+.item{
+    flex:1;
+    
+}
+.table{
+    width:100%;
+    text-align:left;
+    border-spacing:20px;
+}
+.button{
+    cursor: pointer;
+}
+.button:first-child{
+    background-color: teal;
+    color:white;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+}
+.button:nth-child(2){
+    background-color:crimson;
+    color:white;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}

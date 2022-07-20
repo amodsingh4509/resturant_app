@@ -1,0 +1,87 @@
+.container{
+    width: 100vw;
+  height: 100vh;
+  background-color: rgba(245, 240, 240, 0.52);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+    width: 500px;
+    background-color: white;
+    padding:30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pricecontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inputsm, .inputmd, .inputlg{
+    width: 25%;
+}
+.inputextra, .inputexprice{
+    width:30%;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.extrascontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.buttoncreate{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: teal;
+    color:white;
+    border:1px solid;
+    padding:5px;
+    border-radius:10px;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    
+}
+.extraItems{
+    /* display: flex; */
+    margin-top: 10px;
+}
+.extraItem{
+    background: wheat;
+    border-radius: 30px;
+    /* width: auto; */
+    margin: 7px;
+    padding: 4px;
+}
