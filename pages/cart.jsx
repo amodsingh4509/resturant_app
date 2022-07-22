@@ -115,7 +115,7 @@ function cart() {
             </tr>
           </tbody>
           <tbody>
-            {cart.product.map((product) => (
+            {cart.product?.map((product) => (
               <tr className={style.tr} key={product._id}>
                 <td>
                   <div className={style.imgcontainer}>
@@ -132,9 +132,9 @@ function cart() {
                 </td>
                 <td>
                   <span className={style.extras}>
-                    {product.extras.map((extra) => (
+                    {product.extras?product.extras.map((extra)=>(
                       <span key={extra._id}>{extra.text}, </span>
-                    ))}
+                    )):""}
                   </span>
                 </td>
                 <td>

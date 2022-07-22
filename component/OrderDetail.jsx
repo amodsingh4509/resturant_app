@@ -24,7 +24,7 @@ const handleClick=()=>{
                     </div>
                     <div className={style.item}>
                         <label className={style.label}>Address</label>
-                        <input type="textarea" className={style.input} onChange={(e)=>{setAddress(e.target.value)}}/>
+                        <textarea type="text" row={8} className={style.input} onChange={(e)=>{setAddress(e.target.value)}}/>
                     </div>
                     <div className={style.buttons}>
                         <button className={style.button} onClick={handleClick}>Order</button>

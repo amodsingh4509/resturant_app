@@ -8,5 +8,4 @@ const Addbutton = ({ setClose }) => {
 
     )
 }
-
 export default Addbutton

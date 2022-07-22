@@ -29,7 +29,7 @@ function Order ({order}) {
             <tbody>
             <tr>
 
-              <td><span className={style.orderid}>{order._id}</span></td>
+              <td><span className={style.orderid}>{order._id.slice(0,6)}...</span></td>
               <td ><span className={style.customer}>{order.customer}</span></td>
               <td ><span className={style.Address}>{order.address}</span></td>
               <td ><span className={style.total}>Rs {order.total}</span></td>
